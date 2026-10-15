@@ -1,0 +1,52 @@
+h1{
+    text-align: center; font-family: Arial, Helvetica, sans-serif; color: rgb(160, 160, 224);
+    /* Text-aling é para deixar no centro. */
+}
+h2 {
+    text-align: center; font-family: Arial, Helvetica, sans-serif;
+    /* mesma coisa do h1*/
+}
+h3 {
+    padding: 10px; font-family: Arial, Helvetica, sans-serif;
+    /*padding 10px é para o h3 sair da borda do quadrado*/
+}
+img {
+    width: 300px; display: block; 
+    margin: 0 auto; border-radius: 30px; padding: 20px;
+    /* width é para mudar o tamanho da img. display block e margin 0 auto é para centralizar a img. border radius é para deixar a borda redonda. padding foi para a img nao encostar em nada.*/
+}
+main {
+    background-color:white;
+     margin:0 auto; 
+     width: 600px;
+     border-radius: 20px; 
+     box-shadow: 3px 3px 5px;
+     /* margin 0 auto é para centralizar o quadrado. width é para o tamanho do quadrado. border radius é para deixar as bordas redondas. box shadow é para sombra.*/
+}
+body {
+    background-color: #f0f0f0;
+}
+p{
+    padding: 10px; font-family: Arial, Helvetica, sans-serif;
+    /*padding é para o texto nao encostar na img.*/
+}
+a {
+    color: blue; text-decoration: none;
+   padding: 10px;
+   text-decoration: none; font-weight: bold;
+    /* text-decoration none é para tirar a linha de baixo da palavra do link. font weight bold é para deixar em negrito.*/
+    
+}
+a:hover{
+    color: rgb(209, 76, 209);
+    text-decoration: underline;
+    /* o a:houver é para mudar a cor do link quando passar o mouse em cima. text-decoration underline é para quando passar o mouse em cima aparecer uma linha em baixo.*/
+}
+ol {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+footer {
+    padding: 20px;text-decoration: underline;
+    text-align: center;
+    /* para por um rodapé*/
+}
