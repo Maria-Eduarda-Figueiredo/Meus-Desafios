@@ -1,0 +1,36 @@
+:root{
+    --cor0: #050e26;
+    --cor1: #6973cc;
+    --cor2: #471D96;
+    --cor3: #727f98;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor0);
+}
+a{
+    color: var(--cor3);
+    padding-right: 13px;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+a:hover{
+    color: var(--cor1);
+    font-size: 18px;
+    transition: 0.4s;
+}
+header>h2{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+main{
+  
+}
